@@ -138,10 +138,14 @@ margin-right: auto;
 }
 footer img{
     width: 45px;
-    margin-right: 87.31px;
+    margin-right: 30px;
 }
 footer a{
     text-decoration: none;
+}
+.active{
+   font-weight: 700;
+   color: rgb(254, 255, 255);
 }
 @media (max-width: 1100px) {
 header{
@@ -192,10 +196,7 @@ right: 35px;
     text-align: left;
     padding: 5px 10px;
 }
-.hamburger-active li:hover{
-    background-color: var(--second-text-color);
-    color: var(--main-bg-color);
-}
+
 .hamburger:hover .hamburger-active{
     display: block;
 }
@@ -216,11 +217,12 @@ footer ul{
     align-items: center;
     gap:20px;
 }
+
 footer p{
     text-align: center;
 }
 footer img{
-    margin-right: 0px;
     margin-bottom: 35px;
+    margin-right: 0px;
 }
   }
