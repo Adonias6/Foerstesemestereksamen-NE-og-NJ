@@ -123,6 +123,10 @@ span{
     font-weight: bold;
     color: var(--main-text-color);
 }
+.white-span{
+    font-weight: 900;
+    color: var(--second-text-color);
+}
 .banner-head{
     display: flex;
     justify-content: center;
@@ -225,6 +229,38 @@ padding: 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.links-main{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links-main article p{
+    line-height: 45px;
+}
+.privat-main{
+    display: flex;
+    width: 100%;
+}
+.general-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bestyrelsen{
+    display: flex;
+    width: 100%;
+  justify-content: space-between;
+}
+.vedtoegter-main{
+    display: flex;
+    width: 100%;
+}
+.bestyrelsen-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 .container{
     width: 100%;
@@ -372,6 +408,10 @@ main{
         height: 400px;
         position: relative;
         overflow: hidden;
+    }
+    .bestyrelsen{
+        flex-direction: column;
+        gap: 20px;
     }
 footer{
     margin-top: 200px;
