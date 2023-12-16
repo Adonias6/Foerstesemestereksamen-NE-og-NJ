@@ -95,7 +95,8 @@ nav a{
     border-radius: 0.5em;
     color: var(--second-text-color);
     position: absolute;
-    width: max-content;
+   width: 100%;
+   min-width: max-content;
     left: 50%;
     top: 2em;
     transform: translateX(-50%);
@@ -192,7 +193,7 @@ padding: 0 61px;
     align-items: center;
     background-color: var(--second-text-color);
 }
-.title h1{
+.title h2{
 width: 100%;
 color: var(--main-text-color);
 font-size: 18px;
@@ -261,6 +262,35 @@ padding: 0px 10px;
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.tilmeld-main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.tilmeld-main form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.tilmeld-main form p{ 
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tilmeld-main form div{ 
+    display: flex;
+    flex-direction: column;
+}
+.tilmeld-main form select, option, button, input[type=text]{
+ color: var(--main-text-color);
+}
+.tilmeld-main form select, option{
+    padding: 8px 8px;
+}
+.questions{
+height: 120px;
+float: left;
 }
 .container{
     width: 100%;

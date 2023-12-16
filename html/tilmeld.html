@@ -65,6 +65,78 @@
         </div>
       </div>
     </header>
+    <main class="tilmeld-main">
+      <form id="form-tilmeld" action="">
+        <h3>Tilmeld dig</h3>
+        <div>
+          <label for="name">Navn</label>
+          <input
+            type="text"
+            name="name"
+            size="37"
+            required
+            placeholder="Skriv dit fornavn"
+          />
+        </div>
+        <div>
+          <label for="last-name">Efternavn</label>
+          <input
+            type="text"
+            name="last-name"
+            size="37"
+            required
+            placeholder="Skriv dit efternavn"
+          />
+        </div>
+        <div>
+          <label for="age">Alder</label>
+          <input
+            type="number"
+            name="age"
+            step="1"
+            min="0"
+            max="150"
+            required
+            placeholder="Skriv din alder"
+          />
+        </div>
+        <div>
+          <label for="mail">Mail</label>
+          <input
+            type="text"
+            name="mail"
+            size="37"
+            required
+            placeholder="Skriv din mail-adresse"
+          />
+        </div>
+        <div>
+          <label for="sport">Vælg sportsgren</label>
+          <select name="sport">
+            <option>Fitness</option>
+            <option>Fodbold</option>
+            <option>Volley</option>
+            <option>Løb</option>
+            <option>Badminton</option>
+          </select>
+        </div>
+        <div>
+          <label for="questions">Evt. spørgsmål</label>
+          <textarea
+            class="questions"
+            name="text"
+            id="questions"
+            placeholder="Hvis du har et eller flere spørgsmål, kan du stille dem her."
+          ></textarea>
+        </div>
+        <div>
+          <p>Du får en bekræftelse på mail</p>
+          <button type="submit" form="form-tilmeld" value="Submit">
+            Tilmeld
+          </button>
+        </div>
+      </form>
+    </main>
     <footer>
       <a href="https://www.facebook.com/lindoldboys">
         <img
