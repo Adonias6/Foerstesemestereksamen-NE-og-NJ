@@ -269,7 +269,7 @@ padding: 0px 10px;
     display: flex;
     flex-direction: column;
 }
-.tilmeld-main form select, option, button, input[type=text]{
+.tilmeld-main form select, option, button, input[type=text], input[type=number] {
  color: var(--main-text-color);
 }
 .tilmeld-main form button{
@@ -290,7 +290,6 @@ float: left;
 }
 .slides{
     display: flex;
-    height: 100%;
 }
 .slide{
     min-width: 100%;
