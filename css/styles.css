@@ -109,9 +109,9 @@ nav a{
     border-radius: 0.5em;
 }
 .menu li:hover{
-color: var(--main-text-color);
-background-color: var(--second-text-color);
-}
+    color: var(--main-text-color);
+    background-color: var(--second-text-color);
+    }
 .menu-open{
     display: block;
 }
