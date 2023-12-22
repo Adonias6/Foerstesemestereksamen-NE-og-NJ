@@ -63,7 +63,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: var(--main-text-color);
+    
 }
 .dropdown{ /*Following is the styles for the dropdown menu*/
     position: relative; /*positioned relative to its normal position*/
